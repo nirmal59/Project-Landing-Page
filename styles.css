@@ -1,0 +1,180 @@
+.headers{
+    display: flex;
+    background-color: #1f2937;
+    color: antiquewhite;
+    height: 40px;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-grow: 1;
+    
+}
+
+.logo{width: 50%;
+font-weight: 600;}
+
+body{
+    margin: 0%;
+}
+
+ul{ display: flex;
+    gap: 10px;
+    list-style-type: none;
+    font-size:10px;
+}
+
+.links{
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.card{
+    display: flex;
+    height: 200px;
+    background-color: #1f2937;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width:50%;
+}
+
+.text .bigtext{
+    font-size:xx-large;
+    font-weight: 1000;
+    }
+
+.text .smalltext{
+    font-size:medium;
+    color:silver;
+}
+
+.placeholder{display: flex;
+    width: 50%;
+    flex-shrink: 1;
+    
+    justify-content: flex-end;
+
+}
+
+.button{
+    padding-top: 4px;
+}
+
+.card2{
+    color: black;
+    height: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+
+}
+
+.card2 div{
+    font-size:30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.images .img1
+{
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;}
+
+.img1 div{
+    font-size: 15px;
+}
+
+.card3{
+    background-color: #E5e7eb;
+    height: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    justify-content: center;
+}
+.card3 .thor{display: flex;
+justify-content: flex-end;
+font-size: 20px;
+font-weight: 800;
+padding-top: 10px;}
+
+.card4{
+    height: 120px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.card4 .blueting{
+    background-color: #3882F6;
+    height: 100px;
+    color: white;
+    display: flex;
+    padding-left: 50px;
+
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.blueting>div{
+    display: flex;
+    flex-grow: 1;
+}
+
+.blueting .call{
+    display: flex;
+    flex-direction: column;
+}
+
+.call>.bigtext{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.call>.smalltext{
+    font-size: 15px;
+}
+
+button{background-color: aqua;
+border-radius: 10px;
+border: none;
+}
+
+
+
+
+
+
+
+
+
